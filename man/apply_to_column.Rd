@@ -21,14 +21,3 @@ A table containing the results of applying the specified function to the selecte
 \description{
 apply_to_column: Apply a specified function to selected columns of a CSV file.
 }
-\examples{
-do_application("/home/caspian-lilypad/Downloads/move/summer 2025/capm_edited - capm_S25_fixed.csv",mean,c("Date"),TRUE)
-result:
-          BB         BBMR         TSXC       TSXCMR         GVTB       GVTBMR
-7.368983e+00 1.301547e-02 2.052131e+04 9.028865e-03 2.487576e+00 2.045685e-03
-          XT           YT
-6.983180e-03 1.096979e-02
-
-
-
-}

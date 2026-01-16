@@ -3,3 +3,4 @@
 export(apply_to_column)
 export(limits_scan)
 import(dplyr)
+import(readr)

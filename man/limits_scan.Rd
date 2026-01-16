@@ -23,7 +23,3 @@ A data frame containing all rows where the specified column has values outside \
 \description{
 limits_scan: Scan a column for values outside specified limits and return matching rows.
 }
-\examples{
-limits_scan("/path/to/file.csv", "Price", 10, 100000)
-
-}

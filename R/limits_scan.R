@@ -10,10 +10,10 @@ limits_scan <- function(file_path, column_name, lower_limit, upper_limit, charac
   #' @return A data frame containing all rows where the specified column has values outside [lower_limit, upper_limit].
   #'
   #' @import dplyr
+  #' @import readr
   #' @export
   #'
   #' @examples
-  #' limits_scan("/path/to/file.csv", "Price", 10, 100000)
   #'
 
   file_to_process <- data.frame(read.csv(file_path))
